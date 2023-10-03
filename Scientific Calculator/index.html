@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Scientific Calculator</title><b>
+  <link rel="stylesheet" type="text/css" href="./q1.css">
+</head>
+
+<body>
+    <div class="qwe">Scientific Calculator</div>
+  <div class="calculator">
+    <input type="text" id="display" disabled>
+    <div class="buttons">
+      <button onclick="appendToDisplay('7')">7</button>
+      <button onclick="appendToDisplay('8')">8</button>
+      <button onclick="appendToDisplay('9')">9</button>
+      <button onclick="appendToDisplay('+')">+</button>
+      <button onclick="appendToDisplay('4')">4</button>
+      <button onclick="appendToDisplay('5')">5</button>
+      <button onclick="appendToDisplay('6')">6</button>
+      <button onclick="appendToDisplay('-')">-</button>
+      <button onclick="appendToDisplay('1')">1</button>
+      <button onclick="appendToDisplay('2')">2</button>
+      <button onclick="appendToDisplay('3')">3</button>
+      <button onclick="appendToDisplay('*')">*</button>
+      <button onclick="appendToDisplay('.')">.</button>
+      <button onclick="appendToDisplay('0')">0</button>
+      <button onclick="calculate()">=</button>
+      <button onclick="appendToDisplay('/')">/</button>
+     
+      <button onclick="calculateSin()">sin</button>
+    
+      <button onclick="calculateCos()">cos</button>
+    <button onclick="calculateTan()">tan</button>
+    <button onclick="calculateSqrt()">√</button>
+    <button onclick="calculateSquare()">x²</button>
+    <button onclick="calculateInverse()">1/x</button>
+    
+
+    <button onclick="clearDisplay()">AC</button>
+    <button onclick="backspace()">&#9003;</button>
+    </div>
+  </div>
+  <script src="./q1.js"></script>
+</body>
+</html>
